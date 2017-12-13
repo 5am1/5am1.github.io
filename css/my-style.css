@@ -1,28 +1,52 @@
-body, h1,h2,h3,h4,h5,h6
-{font-family: "castellar"}
+body, h1,h2,h3,h4,h5,h6{
+  font-family: "castellar"
+}
 
-body, p
-{font-size: 18px; font-family: "Bodoni MT"}
 
-body, h1,h2,h3,h4,h5,h6,p,header,section
-{color: #FFFFFF}
+body, p{
+  font-size: 18px; font-family: "Bodoni MT"
+}
 
-body, header
-{background-color: #fff}
 
-body
-{background-color:#03060D}
+body, h1,h2,h3,h4,h5,h6,p,header,section{
+  color: #FFFFFF
+}
 
-footer
-{text-align:center; display: block;
+
+header{
+  background-color: #fff
+}
+
+
+body{
+  background-color:#03060D
+}
+
+
+footer{
+  text-align:center; display: block;
   background-color: #ffffff;
 }
-table{display:centered}
-dt{font-size: 25px}
+
+
+table{
+  display:centered
+}
+
+
+dt{
+  font-size: 25px
+}
+
+dd{
+  max-width: 500px
+}
+
+
 .w3-row-padding img {margin-bottom: 12px}
 .w3-mlarge{font-size:22px!important}
 .w3-sidebar {width: 150px;background: #5A5A5A;}
-#main {margin-left: 150px}
-#main2 {margin-left: 24%;margin-right: 27%;}
-#main-table{margin-left: 21%;margin-right: 30%;}
-#img-nav{width: 150px; height: 141px;}
+.main {margin-left: 150px}
+.main2 {margin-left: 24%;margin-right: 27%;}
+.main-table{margin-left: 21%;margin-right: 30%;}
+.img-nav{width: 150px; height: 141px;}
