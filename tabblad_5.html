@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>index</title>
+<link href="css/w3style.css"rel="stylesheet"  >
+<link rel="stylesheet" href="css/my-style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body>
+
+  <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+     <img id="img-nav" class="w3-image" src="img/img_kleur-nav.jpg" >
+
+     <a href="index.html#home" class="w3-bar-item w3-button w3-padding-large w3-black">
+       <i class="fa fa-home w3-xxlarge"></i>
+      <p>HOME</p>
+     </a>
+    <a href="tabblad_1.html#vorm" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <i class="w3-xxlarge"></i>
+      <p>VORM</p>
+    </a>
+    <a href="tabblad_2.html#licht" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <i class="w3-xxlarge"></i>
+      <p>LICHT</p>
+    </a>
+    <a href="tabblad_3.html#ordening" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <i class="w3-xxlarge"></i>
+      <p>ORDENING</p>
+    </a>
+    <a href="tabblad_4.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <i class="w3-xxlarge"></i>
+      <p>RUIMTE</p>
+    </a>
+    <a href="tabblad_5.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <i class="w3-xxlarge"></i>
+      <p>KLEUR</p>
+    </a>
+  </nav>
+
+<div id="main">
+<header class="w3-container w3-padding-16 w3-center w3-black w3-border-top" id="home">
+  <h1 class="w3-jumbo">Beeldende Vorming.</h1>
+
+  <p class="w3-xlarge w3-padding-16">Kunstanalyse.</p><br>
+</header>
+<img class="w3-image" src="img/img_mountain_dark.jpg" width="100%" height="400">
+</div>
+<div id="main2">
+  <section>
+
+<br><br><br><br>  <h2>Kleur.</h2><br>
+  <p class="w3-mlarge">Here comes some background information, dont pay any atantion tot this. <br>So I was saing aksbdabsabslvbsvb</p>
+  </section>
+</div>
+
+<dl id="main2">
+  <dt style="font-size:30px">kleur:</dt>
+  <dt>Primaire/Secondair/Tertaire</dt>
+  <dd></dd> <br>
+  <dt>Licht donker contrast</dt>
+  <dd></dd> <br>
+  <dt>Warm-koud contrast</dt>
+  <dd></dd> <br>
+  <dt>Complimentair kleurcontrast</dt>
+  <dd></dd> <br>
+  <dt>Kleur tegen kleurcontrast</dt>
+  <dd></dd> <br>
+  <dt>Kwantiteitscontrast</dt>
+  <dd></dd> <br>
+  <dt>Kwaliteitscontrast</dt>
+  <dd></dd> <br>
+  <dt>Atmosferisch perspectief</dt>
+  <dd></dd> <br>
+</dl>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<canvas id="myCanvas" width="9000" height="135" style="border:none";></canvas>
+
+  <script>
+  var c = document.getElementById("myCanvas");
+  var ctx = c.getContext("2d");
+  var grd = ctx.createLinearGradient(0,150,0,0);
+  grd.addColorStop(0,"#98baff");
+  grd.addColorStop(1,"#03060D");
+  ctx.fillStyle = grd;
+  ctx.fillRect(0,0,9000,1000);
+  </script>
+</body>
+</html>
